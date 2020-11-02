@@ -33,6 +33,10 @@ body {
     opacity: 0.7;
     transition: opacity ease-out 0.3s;
     cursor: pointer;
+    align-items: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .content-item:hover {
@@ -59,6 +63,7 @@ body {
     color: #FFFFFF;
     width: 100%;
     min-height: 543px;
+    flex-direction: row;
 }
 .content-item:first-child .content-item-info h3{
     max-width: 440px;
